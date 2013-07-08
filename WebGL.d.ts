@@ -6,49 +6,49 @@
 
 interface WebGLObject
 {
-};
+}
 
 interface WebGLBuffer extends WebGLObject
 {
-};
+}
 
 interface WebGLFramebuffer extends WebGLObject
 {
-};
+}
 
 interface WebGLProgram extends WebGLObject
 {
-};
+}
 
 interface WebGLRenderbuffer extends WebGLObject
 {
-};
+}
 
 interface WebGLShader extends WebGLObject
 {
-};
+}
 
 interface WebGLTexture extends WebGLObject
 {
-};
+}
 
 interface WebGLUniformLocation
 {
-};
+}
 
 interface WebGLActiveInfo
 {
 	size: number;
 	type: number;
 	name: string;
-};
+}
 
 interface WebGLShaderPrecisionFormat
 {
 	rangeMin: number;
 	rangeMax: number;
 	precision: number;
-};
+}
 
 
 interface WebGLContextAttributes
@@ -59,7 +59,7 @@ interface WebGLContextAttributes
 	antialias: bool;
 	premultipliedAlpha: bool;
 	preserveDrawingBuffer: bool;
-};
+}
 
 interface WebGLRenderingContext
 {
@@ -683,5 +683,5 @@ interface WebGLRenderingContext
 	vertexAttribPointer(indx: number, size: number, type: number, normalized: bool, stride: number, offset: number): void;
 
 	viewport(x: number, y: number, width: number, height: number): void;
-};
+}
 
